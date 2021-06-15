@@ -1,0 +1,20 @@
+{
+  "appPort" : "{{PORT}}",
+  "development" : {
+      "host"     : "{{DB_HOST}}",
+      "database" : "{{DB_NAME}}",
+      "username" : "{{DB_USER}}",
+      "password" : "{{DB_PASSWORD}}",
+      "dialect"  : "{{DB_DIALECT}}",
+      "port"     : "{{DB_PORT}}"
+  },
+  "test" : {
+      "host"     : "{{TEST_DB_HOST}}",
+      "database" : "{{TEST_DB_NAME}}",
+      "username" : "{{TEST_DB_USER}}",
+      "password" : "{{TEST_DB_PASSWORD}}",
+      "dialect"  : "{{TEST_DB_DIALECT}}",
+      "port"     : "{{TEST_DB_PORT}}"
+  },
+  "backendRootUrl": "{{BACKEND_ROOT_URL}}"
+}
